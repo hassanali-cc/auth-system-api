@@ -1,4 +1,4 @@
-import { GoogleStrategy } from './google.strategy';
+import { GoogleStrategy } from './auth/strategy/google.strategy';
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
